@@ -44,7 +44,7 @@ resource "aws_instance" "instance_2" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket_prefix = "devops-directive-web-app-data"
+  bucket_prefix = "laxmi-devops-directive-web-app-data"
   force_destroy = true
 }
 
